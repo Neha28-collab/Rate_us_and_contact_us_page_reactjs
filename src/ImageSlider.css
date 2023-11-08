@@ -1,0 +1,41 @@
+/* Image Slider Container */
+.image-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Image Style */
+  .image-slider img {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height as needed */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Previous and Next Buttons */
+  .image-slider button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .image-slider button:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Center the buttons horizontally */
+  .image-slider button:first-child {
+    margin-right: 10px;
+  }
+  
